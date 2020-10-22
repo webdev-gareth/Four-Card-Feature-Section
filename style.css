@@ -59,12 +59,19 @@ div.container h1 {
     font-size: 1.2em;
 }
 div.container p {
-    color: var(--Very-Dark-Blue);
+    color: var(--Grayish-Blue);
     font-size: 1em;
+    margin-top: 0.5em;
 }
 div.container h1, div.container p {
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: 10px;
+}
+.content {
+    margin-top: 1em;
+}
+.card1, .card2, .card3, .card4 {
+    height: 250px;
 }
 .card1 {
     background-color: white;
@@ -75,8 +82,8 @@ div.container h1, div.container p {
 }
 img {
     margin-left: 13em;
-    margin-top: 5em;
-    margin-bottom: 2em;
+    margin-top: 4em;
+    margin-bottom: 8em;
 }
 .card2 {
     background-color: white;
