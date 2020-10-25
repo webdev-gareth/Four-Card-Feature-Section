@@ -127,9 +127,11 @@ img {
 @media only screen and (min-width: 650px) and (max-width: 1100px) {
     div.container {
         display: grid;
-        grid-column: repeat(2, 300px);
-        grid-row: repeat(2, 1fr);
-        margin-left: 22em;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 1fr 1fr;
+        /* margin-left: 22em; */
+        justify-content: center;
+        align-content: center;
     }
     .card1 {
         grid-area: 1/1/2/2;
